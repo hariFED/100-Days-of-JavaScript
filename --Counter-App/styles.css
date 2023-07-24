@@ -1,0 +1,87 @@
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --li-blue: #005490;
+  --primary: #ffff4bdc;
+  --secondary: #fe6823;
+  --grey: #eee;
+  --dark-gry: #222831;
+  --green: #3beb8d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1em;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 6rem;
+  color: var(--secondary);
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 800;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+button {
+  font-size: 2.5rem;
+  letter-spacing: 0.5rem;
+  padding: 20px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+button:nth-child(3) {
+  background-color: var(--green);
+  border: 0.5px solid var(--green);
+}
+
+button:nth-child(2) {
+  background-color: var(--grey);
+  border: 0.5px solid var(--grey);
+}
+
+button:nth-child(1) {
+  background-color: var(--primary);
+  border: 0.5px solid var(--primary);
+}
