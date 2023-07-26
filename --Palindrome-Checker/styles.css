@@ -1,0 +1,99 @@
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --li-blue: #005490;
+  --primary: #9d0191;
+  --secondary: #db6400;
+  --grey: #eee;
+  --dark-gry: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1em;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.palindrome-checker {
+  width: 100%;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  color: crimson;
+  margin-bottom: 3rem;
+}
+input {
+  width: 80%;
+  height: 3.5rem;
+  border: none;
+  outline: none;
+  border-bottom: 5px solid orange;
+  border-right: 3px solid orange;
+  border-left: 3px solid orange;
+  font-size: 2.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: transparent;
+}
+
+input::placeholder {
+  font-size: 2rem;
+  text-align: center;
+  text-transform: none;
+}
+
+button {
+  margin: 2.5rem;
+  padding: 1em 2.5em 1em 2.5em;
+  font-size: 1.5rem;
+  background-color: green;
+  border: 1px solid green;
+  font-weight: 700;
+  color: var(--white);
+  letter-spacing: 0.2em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: green;
+}
+
+p {
+  font-size: 2.5rem;
+  font-family: fantasy;
+}
