@@ -10,9 +10,9 @@ copyBtn.addEventListener('click', copyText)
 function copyText() {
     navigator.clipboard.writeText(input.value)
     copyBtn.innerHTML = "Copied..!"
-    setTimeout(()=>{
-        copyBtn.innerHTML="Copy"
-    },3000)
+    setTimeout(() => {
+        copyBtn.innerHTML = "Copy"
+    }, 1500)
 }
 
 
