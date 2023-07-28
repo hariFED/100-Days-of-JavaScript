@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --li-blue: #005490;
+  --primary: #9d0191;
+  --secondary: #db6400;
+  --grey: #eee;
+  --dark-gry: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1em;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.clickTocopy {
+  width: 90%;
+  background-color: white;
+  border-radius: 25px;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: rgb(255, 63, 29);
+  margin-bottom: 1.5rem;
+  font-family: "Rock Salt", cursive;
+}
+input {
+  width: 80%;
+  height: 5rem;
+  border: none;
+  outline: none;
+  border: 3px solid rgb(204, 0, 255);
+
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+
+  font-family: "Kanit", sans-serif;
+}
+
+
+
+button {
+  margin: 2.5rem;
+  padding: 1em 2.5em 1em 2.5em;
+  font-size: 1.5rem;
+  background-color: green;
+  border: 1px solid green;
+  font-weight: 700;
+  color: var(--white);
+  letter-spacing: 0.2em;
+  font-family: "Kanit", sans-serif;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: green;
+}
+
+p {
+  font-size: 2.5rem;
+  font-family: "Kanit", sans-serif;
+}
