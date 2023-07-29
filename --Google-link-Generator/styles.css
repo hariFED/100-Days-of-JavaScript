@@ -1,0 +1,191 @@
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --li-blue: #005490;
+  --primary: #9d0191;
+  --secondary: #db6400;
+  --grey: #eee;
+  --dark-gry: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1em;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+.main-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.instruction-container {
+  padding: 5rem;
+  max-width: 40%;
+  background-color: black;
+  color: var(--white);
+}
+
+.instruction-heading {
+  font-size: 2.5rem;
+  color: #eee83f;
+  padding-bottom: 1.5rem;
+}
+.instruction-description {
+  line-height: 1.2;
+  font-size: 1.8rem;
+}
+
+hr {
+  margin: 1.5rem 0;
+}
+
+.instruction-steps {
+  line-height: 1.5;
+  font-size: 2rem;
+}
+
+.generator-container {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  width: 100%;
+  text-align: center;
+  height: 100vh;
+  background-color: #eee83f;
+}
+
+.generator-container-sub {
+  margin-top: 5rem;
+  word-wrap: break-word;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.generator-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.generator-options {
+  padding: 0rem;
+}
+.options {
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin: none;
+  background-color: transparent;
+  border-top: 1px solid black;
+  border-radius: 25px;
+  border-right: 0;
+  cursor: pointer;
+  margin: 2rem;
+  letter-spacing: 1.5px;
+}
+
+.options:hover,
+.copy-btn:hover {
+  background-color: #000000;
+  color: var(--white);
+}
+
+.options-container {
+  width: 80%;
+  border: 2px solid black;
+  padding: 2rem 2rem;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white);
+}
+.icon-link {
+  padding: 1rem;
+}
+.options-heading {
+  padding: 1rem 0rem;
+  font-size: 2rem;
+}
+
+.options-content {
+  font-size: 1.5rem;
+  font-weight: 100;
+  padding-bottom: 1rem;
+}
+.paste-link {
+  width: 60%;
+  height: 3rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding-left: 1rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+.generator-btn {
+  width: 60%;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: 800;
+  background-color: transparent;
+  cursor: pointer;
+  border: 2px solid;
+  border-radius: 15px;
+}
+
+.generator-btn:hover {
+  background-color: #000000;
+  color: var(--white);
+}
+
+.text-area {
+  position: relative;
+}
+
+.copy {
+  position: absolute;
+  left: 247px;
+  bottom: 5px;
+}
+
+.copy-btn {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 25px 0 0 25px;
+}
+
+.audio-section {
+  display: none;
+}
+
+.video-doc-section {
+  display: none;
+}
