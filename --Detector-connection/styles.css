@@ -24,12 +24,8 @@ body {
 }
 
 p {
-  font-size: 1.6rem;
-  line-height: 1.5;
-}
-
-img {
-  width: 100%;
+  font-size: 2rem;
+  margin-top: 2rem;
 }
 
 .container {
@@ -41,4 +37,10 @@ img {
   align-items: center;
   height: 100vh;
   text-align: center;
+}
+.on-img {
+  display: none;
+}
+.of-img {
+  display: none;
 }

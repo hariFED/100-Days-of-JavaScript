@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 10 : Internet Connection Status Detector</title>
+    <!-- <script src="https://kit.fontawesome.com/b2f554f6d9.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <section>
+            <div id="online" class="on-img">
+                <img src="./images/wifi.png" alt="wifi-picture" width="100px">
+            </div>
+            <div id="offline" class="of-img">
+                <img src="./images/no-wifi.png" alt="no-wifi" width="100px">
+            </div>
+            <h1>Internet Connection Status</h1>
+            <p id="status">Online</p>
+        </section>
+    </div>
+    <script>
+
+        window.addEventListener('load', (event) => {
+            document.querySelector('p').textContent = navigator.onLine ? "Online" : "Offline";
+        })
+        window.addEventListener('online', (event) => {
+            document.querySelector('p').textContent = "Online"
+
+        })
+        window.addEventListener('offline', (event) => {
+            document.querySelector('p').textContent = "Offline"
+
+        })
+
+        const onlineStatus = document.getElementById('status');
+        const online = document.getElementById('online');
+        const offline = document.getElementById('offline');
+
+
+        if (onlineStatus.innerText === "Online") {
+            online.style.display = "block"
+        }
+
+        else if (onlineStatus.innerText === "Offline") {
+            offline.style.display = "block";
+        }
+    </script>
+</body>
+<script src="./script.js"></script>
+
+</html>
